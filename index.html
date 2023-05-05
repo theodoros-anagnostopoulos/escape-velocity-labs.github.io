@@ -8,14 +8,15 @@
 	<title>My web portfolio</title>
     </head>
 
-    <!--Make the page background the same color as tailwind css website-->
     
     <body class="bg-gradient-to-br from-indigo-600 to-indigo-900 ">
 
         <div class="container mx-auto flex flex-wrap justify-center gap-x-8 gap-y-4 mt-24">
-            <!--Add an image that is 60x60, with rounded corners and an extra-large shadow-->
+            
+            <!--Change your profile photo-->
             <img class="h-60 w-60 rounded-full shadow-2xl" src="assets/john_1.png" alt="">
-            <!--Create a vertical div with a bold white large title and slightly muted text below-->
+            
+            <!--Change your name, description and CV-->
             <div class="flex flex-col items-center sm:items-start justify-center">
                 <h1 class="text-5xl font-bold text-white my-2">John Doe.</h1>
                 <p class="text-gray-200">I am a hard-working software developer.</p>
@@ -40,11 +41,10 @@
             </div>
         </div>
 
-        <!--Create a flex contact section consisting in three items.
-            Each item has a logo on the left and muted white text on the right.-->
         <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 mt-16 mb-8">
-            <div class="flex flex-row justify-center gap-x-2">
 
+            <!--Change your phone number-->
+            <div class="flex flex-row justify-center gap-x-2">
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     fill="none" 
@@ -57,6 +57,8 @@
                   
                 <p class="text-gray-200">+1 (555) 234-5678</p>
             </div>
+
+            <!--Change your email address-->
             <div class="flex flex-row justify-center gap-x-2">
                 <svg 
                 xmlns="http://www.w3.org/2000/svg" 
@@ -71,6 +73,8 @@
                 </svg>
                 <p class="text-gray-200">your@email.com</p>
             </div>
+
+            <!--Change your location-->
             <div class="flex flex-row justify-center gap-x-2">
                 <svg 
                 xmlns="http://www.w3.org/2000/svg" 
@@ -87,7 +91,7 @@
             </div>
         </div>
 
-        <!--Create a horizontal div with 3 icons-->
+        <!--Change your social media icons-->
         <div class="flex flex-wrap flex-row justify-center gap-x-4">
             <!-- Linkedin -->
             <a href="https://linkedin.com" target="_blank">
@@ -123,14 +127,14 @@
             </a>
         </div>
 
-
-        <!--Create a bold large, centered white heading -->
         <div id="education" class="container mx-auto text-center mt-24 mb-16">
             <h1 class="text-5xl font-bold text-white">Education</h1>
             <p class="text-gray-200 my-3">How I learned what I know.</p>
         </div>
 
         <div class="container mx-auto">
+
+            <!--Change bootcamp diploma details-->
             <a href="https://evlabs.io" target="_blank">
                 <div class="rounded-lg bg-indigo-900 m-4 pl-6 pr-6 pb-6 pt-4
                 md:ml-16 md:mr-16 transition-transform hover:transform hover:scale-105">
@@ -140,6 +144,7 @@
                 </div>               
             </a>
 
+            <!--Change PCEP details-->
             <a href="https://pythoninstitute.org/pcap" target="_blank">
                 <div class="rounded-lg bg-indigo-900 m-4 pl-6 pr-6 pb-6 pt-4
                 md:ml-16 md:mr-16 transition-transform hover:transform hover:scale-105">
@@ -151,23 +156,20 @@
 
         </div>
 
-        <!--Create a bold large, centered white heading -->
         <div id="projects" class="container mx-auto text-center mt-24">
             <h1 class="text-5xl font-bold text-white">Coding Projects</h1>
             <p class="text-gray-200 my-3">Just a sample of what I can do.</p>
         </div>
 
-
-        <!--Create a responsive grid in which the number of columns depends on the screen size-->
+        <!--Change your project details-->
         <div class="flex flex-wrap justify-center gap-x-4 gap-y-4 my-12 mb-48">
-            <!--Create a card with a dark blue rounded corner-->
 
+            <!--Flowchart project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
                 
-                <!-- <a href="" target="_blank"> -->
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="relative h-full w-full">
                           <img class="h-full w-full object-cover" src="assets/flowchart.png" alt="Image">
@@ -180,15 +182,15 @@
                         <p class="text-gray-200 text-center">Implement an algorithm from a flowchart.</p>
                         <p class="text-red-200 text-center mt-4">Available soon</p>
                     </div>           
-                <!-- </a> -->
+
             </div>
 
+            <!--Caesar cipher project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
                 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/caesar_cipher.png" alt="Image">
@@ -201,15 +203,15 @@
                     <p class="text-gray-200 text-center">A program that encrypts messages using the Caesar cipher.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Morse code project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/morse_code.png" alt="Image">
@@ -222,15 +224,14 @@
                     <p class="text-gray-200 text-center">Program that translates messages to Morse Code.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
             </div>
 
+            <!--Tic tac toe project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/tic_tac_toe.png" alt="Image">
@@ -243,15 +244,15 @@
                     <p class="text-gray-200 text-center">Two-player, command-line Tic-tac-toe game.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Gradebook project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/grade_book.png" alt="Image">
@@ -264,15 +265,15 @@
                     <p class="text-gray-200 text-center">CLI application to manage student records and track grades.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--RPG project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/rpg.png" alt="Image">
@@ -285,15 +286,15 @@
                     <p class="text-gray-200 text-center">CLI fantasy game with diffent classes of heroes.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Notes project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/notes.png" alt="Image">
@@ -306,15 +307,15 @@
                     <p class="text-gray-200 text-center">A simple CLI note-taking program.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
   
+            <!--CMS project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/cms.png" alt="Image">
@@ -327,15 +328,15 @@
                     <p class="text-gray-200 text-center">Simple CLI customer management system.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Lorentz attractor project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/lorentz.png" alt="Image">
@@ -348,15 +349,15 @@
                     <p class="text-gray-200 text-center">Visualization of the Lorenz Attractor using Turtle graphics.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Calculator project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/calculator.png" alt="Image">
@@ -369,15 +370,15 @@
                     <p class="text-gray-200 text-center">Calculator desktop application with Tkinter.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Instagram filters project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/instagram.png" alt="Image">
@@ -390,15 +391,14 @@
                     <p class="text-gray-200 text-center">GUI app to apply instagram-like filters to images.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
             </div>
 
+            <!--Currency conversion project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/conversion.png" alt="Image">
@@ -411,15 +411,14 @@
                     <p class="text-gray-200 text-center">Flask web app to convert currencies.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
             </div>
 
+            <!--Web scraping project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/web_scraping.png" alt="Image">
@@ -432,15 +431,14 @@
                     <p class="text-gray-200 text-center">Scrape data from a bookstore website with scrapy.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
             </div>
 
+            <!--SQL bookstore project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/bookstore_1.png" alt="Image">
@@ -453,15 +451,15 @@
                     <p class="text-gray-200 text-center">Store bookstore data in a SQL database.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--REST API bookstore project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/bookstore_2.png" alt="Image">
@@ -474,15 +472,15 @@
                     <p class="text-gray-200 text-center">REST API to access and modify our bookstore data.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Snake game project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/snake.png" alt="Image">
@@ -495,15 +493,15 @@
                     <p class="text-gray-200 text-center">Create the classic Snake game using the Pygame library.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Breakout game project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/breakout.png" alt="Image">
@@ -516,15 +514,15 @@
                     <p class="text-gray-200 text-center">Create the classic Breakout game using the Pygame library.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Tetris game project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/tetris.png" alt="Image">
@@ -537,15 +535,15 @@
                     <p class="text-gray-200 text-center">Create the classic Tetris game using the Pygame library.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Capstone 1 project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/capstone_1.png" alt="Image">
@@ -558,15 +556,15 @@
                     <p class="text-gray-200 text-center">Final bootcamp project.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Capstone 2 project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/capstone_2.png" alt="Image">
@@ -579,15 +577,15 @@
                     <p class="text-gray-200 text-center">Final bootcamp project.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
+            <!--Capstone 3 project-->
             <div class="relative h-80 rounded-lg overflow-hidden
                     w-full sm:w-1/2 md:w-1/3 lg:w-1/4
                     mr-8 ml-8 sm:mr-0 sm:ml-0
                     transition-transform hover:transform hover:scale-105">
 
-            <!-- <a href="" target="_blank"> -->
                 <div class="absolute inset-0 flex items-center justify-center">
                     <div class="relative h-full w-full">
                       <img class="h-full w-full object-cover" src="assets/capstone_3.png" alt="Image">
@@ -600,13 +598,12 @@
                     <p class="text-gray-200 text-center">Final bootcamp project.</p>
                     <p class="text-red-200 text-center mt-4">Available soon</p>
                 </div>
-            <!-- </a> -->
+
             </div>
 
         </div>
 
         <footer class="flex justify-center items-center border-t-2 border-slate-600/100 h-40 p-8">
-            <!-- Ad a thin divider -->
             <a href="https://www.evlabs.io" class="text-gray-200 text-center text-l">
                 © <script>document.write(new Date().getFullYear())</script> Escape Velocity Labs
             </a>
